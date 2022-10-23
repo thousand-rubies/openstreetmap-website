@@ -40,11 +40,11 @@ gem "argon2"
 gem "sprockets-exporters_pack"
 
 # Load rails plugins
-gem "actionpack-page_caching", ">= 1.2.0"
+gem "actionpack-page_caching", ">= 1.2.4"
 gem "activerecord-import"
 gem "active_record_union"
-gem "bootstrap", "~> 5.1.0"
-gem "bootstrap_form", "~> 5.0"
+gem "bootstrap", "~> 5.1.3"
+gem "bootstrap_form", "~> 5.1", ">= 5.1.0"
 gem "cancancan"
 gem "composite_primary_keys", "~> 14.0.0"
 gem "config"
@@ -54,7 +54,7 @@ gem "i18n-js", "~> 3.9.2"
 gem "oauth-plugin", ">= 0.5.1"
 gem "openstreetmap-deadlock_retry", ">= 1.3.1", :require => "deadlock_retry"
 gem "rack-cors"
-gem "rails-i18n", "~> 7.0.0"
+gem "rails-i18n", "~> 7.0.5"
 gem "rinku", ">= 2.0.6", :require => "rails_rinku"
 gem "strong_migrations"
 gem "validates_email_format_of", ">= 1.5.1"
@@ -66,13 +66,13 @@ gem "quad_tile", "~> 1.0.1"
 gem "rack-uri_sanitizer"
 
 # Omniauth for authentication
-gem "omniauth", "~> 2.0.2"
+gem "omniauth", "~> 2.1.0"
 gem "omniauth-facebook"
 gem "omniauth-github"
-gem "omniauth-google-oauth2", ">= 0.6.0"
+gem "omniauth-google-oauth2", ">= 1.1.1"
 gem "omniauth-mediawiki", ">= 0.0.4"
 gem "omniauth-openid"
-gem "omniauth-rails_csrf_protection", "~> 1.0"
+gem "omniauth-rails_csrf_protection", "~> 1.0", ">= 1.0.1"
 gem "omniauth-windowslive"
 
 # Doorkeeper for OAuth2
@@ -143,7 +143,7 @@ end
 # Gems needed for running tests
 group :test do
   gem "brakeman"
-  gem "capybara", ">= 2.15"
+  gem "capybara", ">= 3.37.1"
   gem "erb_lint", :require => false
   gem "factory_bot_rails"
   gem "minitest", "~> 5.1"
