@@ -103,7 +103,7 @@ gem "rotp"
 
 # Load memcache client in case we are using it
 gem "connection_pool"
-gem "dalli"
+gem "dalli", ">= 3.2.3"
 gem "kgio"
 
 # Load secure_headers for Content-Security-Policy support
