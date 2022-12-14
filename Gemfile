@@ -19,7 +19,7 @@ gem "terser"
 gem "jquery-rails"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem "jbuilder", "~> 2.7"
+gem "jbuilder", "~> 2.11", ">= 2.11.5"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.4.2", :require => false
@@ -40,11 +40,11 @@ gem "argon2"
 gem "sprockets-exporters_pack"
 
 # Load rails plugins
-gem "actionpack-page_caching", ">= 1.2.0"
+gem "actionpack-page_caching", ">= 1.2.4"
 gem "activerecord-import"
 gem "active_record_union"
-gem "bootstrap", "~> 5.1.0"
-gem "bootstrap_form", "~> 5.0"
+gem "bootstrap", "~> 5.1.3"
+gem "bootstrap_form", "~> 5.1", ">= 5.1.0"
 gem "cancancan"
 gem "composite_primary_keys", "~> 14.0.0"
 gem "config"
@@ -54,7 +54,7 @@ gem "i18n-js", "~> 3.9.2"
 gem "oauth-plugin", ">= 0.5.1"
 gem "openstreetmap-deadlock_retry", ">= 1.3.1", :require => "deadlock_retry"
 gem "rack-cors"
-gem "rails-i18n", "~> 7.0.0"
+gem "rails-i18n", "~> 7.0.5"
 gem "rinku", ">= 2.0.6", :require => "rails_rinku"
 gem "strong_migrations"
 gem "validates_email_format_of", ">= 1.5.1"
@@ -72,7 +72,7 @@ gem "omniauth-github"
 gem "omniauth-google-oauth2", ">= 0.6.0"
 gem "omniauth-mediawiki", ">= 0.0.4"
 gem "omniauth-openid"
-gem "omniauth-rails_csrf_protection", "~> 1.0"
+gem "omniauth-rails_csrf_protection", "~> 1.0", ">= 1.0.1"
 gem "omniauth-windowslive"
 
 # Doorkeeper for OAuth2
