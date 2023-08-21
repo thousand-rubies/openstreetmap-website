@@ -41,7 +41,7 @@ gem "sprockets-exporters_pack"
 
 # Load rails plugins
 gem "actionpack-page_caching", ">= 1.2.0"
-gem "activerecord-import"
+gem "activerecord-import", ">= 1.5.0"
 gem "active_record_union"
 gem "bootstrap", "~> 5.1.0"
 gem "bootstrap_form", "~> 5.0"
