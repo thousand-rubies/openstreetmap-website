@@ -145,7 +145,7 @@ group :test do
   gem "brakeman"
   gem "capybara", ">= 2.15"
   gem "erb_lint", :require => false
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", ">= 6.3.0"
   gem "minitest", "~> 5.1"
   gem "puma", "~> 5.6"
   gem "rails-controller-testing"
