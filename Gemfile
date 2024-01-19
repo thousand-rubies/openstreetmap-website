@@ -66,7 +66,7 @@ gem "quad_tile", "~> 1.0.1"
 gem "rack-uri_sanitizer"
 
 # Omniauth for authentication
-gem "omniauth", "~> 2.0.2"
+gem "omniauth", "~> 2.1.0"
 gem "omniauth-facebook"
 gem "omniauth-github"
 gem "omniauth-google-oauth2", ">= 0.6.0"
