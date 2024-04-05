@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Require rails
-gem "rails", "7.0.4"
+gem "rails", "7.0.8.1"
 
 # Require json for multi_json
 gem "json"
@@ -16,7 +16,7 @@ gem "sassc-rails"
 gem "terser"
 
 # Use jquery as the JavaScript library
-gem "jquery-rails"
+gem "jquery-rails", ">= 4.5.1"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem "jbuilder", "~> 2.7"
@@ -43,8 +43,8 @@ gem "sprockets-exporters_pack"
 gem "actionpack-page_caching", ">= 1.2.0"
 gem "activerecord-import"
 gem "active_record_union"
-gem "bootstrap", "~> 5.1.0"
-gem "bootstrap_form", "~> 5.0"
+gem "bootstrap", "~> 5.2.0"
+gem "bootstrap_form", "~> 5.2", ">= 5.2.0"
 gem "cancancan"
 gem "composite_primary_keys", "~> 14.0.0"
 gem "config"
@@ -53,8 +53,8 @@ gem "http_accept_language", "~> 2.1.1"
 gem "i18n-js", "~> 3.9.2"
 gem "oauth-plugin", ">= 0.5.1"
 gem "openstreetmap-deadlock_retry", ">= 1.3.1", :require => "deadlock_retry"
-gem "rack-cors"
-gem "rails-i18n", "~> 7.0.0"
+gem "rack-cors", ">= 2.0.0"
+gem "rails-i18n", "~> 7.0.6"
 gem "rinku", ">= 2.0.6", :require => "rails_rinku"
 gem "strong_migrations"
 gem "validates_email_format_of", ">= 1.5.1"
@@ -66,18 +66,18 @@ gem "quad_tile", "~> 1.0.1"
 gem "rack-uri_sanitizer"
 
 # Omniauth for authentication
-gem "omniauth", "~> 2.0.2"
+gem "omniauth", "~> 2.1.0"
 gem "omniauth-facebook"
 gem "omniauth-github"
-gem "omniauth-google-oauth2", ">= 0.6.0"
+gem "omniauth-google-oauth2", ">= 1.1.2"
 gem "omniauth-mediawiki", ">= 0.0.4"
 gem "omniauth-openid"
 gem "omniauth-rails_csrf_protection", "~> 1.0"
 gem "omniauth-windowslive"
 
 # Doorkeeper for OAuth2
-gem "doorkeeper"
-gem "doorkeeper-i18n"
+gem "doorkeeper", ">= 5.6.1"
+gem "doorkeeper-i18n", ">= 5.2.6"
 
 # Markdown formatting support
 gem "kramdown"
@@ -90,7 +90,7 @@ gem "libxml-ruby", ">= 2.0.5", :require => "libxml"
 
 # Use for HTML sanitisation
 gem "htmlentities"
-gem "sanitize"
+gem "sanitize", ">= 6.0.1"
 
 # Load faraday for mockable HTTP client
 gem "faraday"
@@ -99,7 +99,7 @@ gem "faraday"
 gem "maxminddb"
 
 # Load rotp to generate TOTP tokens
-gem "rotp"
+gem "rotp", ">= 6.3.0"
 
 # Load memcache client in case we are using it
 gem "connection_pool"
@@ -110,7 +110,7 @@ gem "kgio"
 gem "secure_headers"
 
 # Load canonical-rails to generate canonical URLs
-gem "canonical-rails"
+gem "canonical-rails", ">= 0.2.15"
 
 # Used to generate logstash friendly log files
 gem "logstasher"
@@ -133,7 +133,7 @@ gem "image_processing"
 # Gems useful for development
 group :development do
   gem "annotate"
-  gem "better_errors"
+  gem "better_errors", ">= 2.10.0"
   gem "binding_of_caller"
   gem "debug_inspector"
   gem "listen"
@@ -143,16 +143,16 @@ end
 # Gems needed for running tests
 group :test do
   gem "brakeman"
-  gem "capybara", ">= 2.15"
-  gem "erb_lint", :require => false
-  gem "factory_bot_rails"
+  gem "capybara", ">= 3.38.0"
+  gem "erb_lint", ">= 0.3.0", :require => false
+  gem "factory_bot_rails", ">= 6.3.0"
   gem "minitest", "~> 5.1"
   gem "puma", "~> 5.6"
   gem "rails-controller-testing"
   gem "rubocop"
   gem "rubocop-minitest"
   gem "rubocop-performance"
-  gem "rubocop-rails"
+  gem "rubocop-rails", ">= 2.17.0"
   gem "rubocop-rake"
   gem "selenium-webdriver"
   gem "simplecov", :require => false
