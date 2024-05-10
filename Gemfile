@@ -72,7 +72,7 @@ gem "omniauth-github"
 gem "omniauth-google-oauth2", ">= 0.6.0"
 gem "omniauth-mediawiki", ">= 0.0.4"
 gem "omniauth-openid"
-gem "omniauth-rails_csrf_protection", "~> 1.0"
+gem "omniauth-rails_csrf_protection", "~> 1.0", ">= 1.0.2"
 gem "omniauth-windowslive"
 
 # Doorkeeper for OAuth2
