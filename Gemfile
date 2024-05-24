@@ -67,7 +67,7 @@ gem "rack-uri_sanitizer"
 
 # Omniauth for authentication
 gem "omniauth", "~> 2.0.2"
-gem "omniauth-facebook"
+gem "omniauth-facebook", ">= 10.0.0"
 gem "omniauth-github"
 gem "omniauth-google-oauth2", ">= 0.6.0"
 gem "omniauth-mediawiki", ">= 0.0.4"
