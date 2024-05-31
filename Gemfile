@@ -143,7 +143,7 @@ end
 # Gems needed for running tests
 group :test do
   gem "brakeman"
-  gem "capybara", ">= 2.15"
+  gem "capybara", ">= 3.38.0"
   gem "erb_lint", :require => false
   gem "factory_bot_rails"
   gem "minitest", "~> 5.1"
