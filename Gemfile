@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Require rails
-gem "rails", "7.0.4"
+gem "rails", "7.0.8.3"
 
 # Require json for multi_json
 gem "json"
@@ -110,7 +110,7 @@ gem "kgio"
 gem "secure_headers"
 
 # Load canonical-rails to generate canonical URLs
-gem "canonical-rails"
+gem "canonical-rails", ">= 0.2.15"
 
 # Used to generate logstash friendly log files
 gem "logstasher"
