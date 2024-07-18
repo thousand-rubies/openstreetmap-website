@@ -144,18 +144,18 @@ end
 group :test do
   gem "brakeman"
   gem "capybara", ">= 2.15"
-  gem "erb_lint", :require => false
+  gem "erb_lint", ">= 0.3.0", :require => false
   gem "factory_bot_rails"
   gem "minitest", "~> 5.1"
   gem "puma", "~> 5.6"
   gem "rails-controller-testing"
-  gem "rubocop"
-  gem "rubocop-minitest"
-  gem "rubocop-performance"
-  gem "rubocop-rails"
+  gem "rubocop", ">= 1.37.0"
+  gem "rubocop-minitest", ">= 0.23.0"
+  gem "rubocop-performance", ">= 1.15.1"
+  gem "rubocop-rails", ">= 2.17.0"
   gem "rubocop-rake"
-  gem "selenium-webdriver"
+  gem "selenium-webdriver", ">= 4.6.0"
   gem "simplecov", :require => false
   gem "simplecov-lcov", :require => false
-  gem "webmock"
+  gem "webmock", ">= 3.19.0"
 end
