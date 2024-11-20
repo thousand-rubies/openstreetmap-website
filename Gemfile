@@ -54,7 +54,7 @@ gem "i18n-js", "~> 3.9.2"
 gem "oauth-plugin", ">= 0.5.1"
 gem "openstreetmap-deadlock_retry", ">= 1.3.1", :require => "deadlock_retry"
 gem "rack-cors"
-gem "rails-i18n", "~> 7.0.0"
+gem "rails-i18n", "~> 8.0.0"
 gem "rinku", ">= 2.0.6", :require => "rails_rinku"
 gem "strong_migrations"
 gem "validates_email_format_of", ">= 1.5.1"
@@ -80,7 +80,7 @@ gem "doorkeeper"
 gem "doorkeeper-i18n"
 
 # Markdown formatting support
-gem "kramdown"
+gem "kramdown", ">= 2.5.1"
 
 # For status transitions of Issues
 gem "aasm"
