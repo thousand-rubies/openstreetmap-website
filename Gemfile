@@ -43,7 +43,7 @@ gem "sprockets-exporters_pack"
 gem "actionpack-page_caching", ">= 1.2.0"
 gem "activerecord-import"
 gem "active_record_union"
-gem "bootstrap", "~> 5.1.0"
+gem "bootstrap", "~> 5.3.2"
 gem "bootstrap_form", "~> 5.0"
 gem "cancancan"
 gem "composite_primary_keys", "~> 14.0.0"
@@ -110,7 +110,7 @@ gem "kgio"
 gem "secure_headers"
 
 # Load canonical-rails to generate canonical URLs
-gem "canonical-rails"
+gem "canonical-rails", ">= 0.2.15"
 
 # Used to generate logstash friendly log files
 gem "logstasher"
