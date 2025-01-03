@@ -90,7 +90,7 @@ gem "libxml-ruby", ">= 2.0.5", :require => "libxml"
 
 # Use for HTML sanitisation
 gem "htmlentities"
-gem "sanitize"
+gem "sanitize", ">= 7.0.0"
 
 # Load faraday for mockable HTTP client
 gem "faraday"
