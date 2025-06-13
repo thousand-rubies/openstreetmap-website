@@ -71,7 +71,7 @@ gem "omniauth-facebook"
 gem "omniauth-github"
 gem "omniauth-google-oauth2", ">= 0.6.0"
 gem "omniauth-mediawiki", ">= 0.0.4"
-gem "omniauth-openid"
+gem "omniauth-openid", ">= 2.0.2"
 gem "omniauth-rails_csrf_protection", "~> 1.0"
 gem "omniauth-windowslive"
 
