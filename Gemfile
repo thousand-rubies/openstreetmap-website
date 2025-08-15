@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Require rails
-gem "rails", "7.0.4"
+gem "rails", "7.1.5.2"
 
 # Require json for multi_json
 gem "json"
@@ -41,14 +41,14 @@ gem "sprockets-exporters_pack"
 
 # Load rails plugins
 gem "actionpack-page_caching", ">= 1.2.0"
-gem "activerecord-import"
+gem "activerecord-import", ">= 1.5.0"
 gem "active_record_union"
 gem "bootstrap", "~> 5.1.0"
 gem "bootstrap_form", "~> 5.0"
 gem "cancancan"
 gem "composite_primary_keys", "~> 14.0.0"
 gem "config"
-gem "delayed_job_active_record"
+gem "delayed_job_active_record", ">= 4.1.8"
 gem "http_accept_language", "~> 2.1.1"
 gem "i18n-js", "~> 3.9.2"
 gem "oauth-plugin", ">= 0.5.1"
@@ -56,7 +56,7 @@ gem "openstreetmap-deadlock_retry", ">= 1.3.1", :require => "deadlock_retry"
 gem "rack-cors"
 gem "rails-i18n", "~> 7.0.0"
 gem "rinku", ">= 2.0.6", :require => "rails_rinku"
-gem "strong_migrations"
+gem "strong_migrations", ">= 1.4.0"
 gem "validates_email_format_of", ">= 1.5.1"
 
 # Native OSM extensions
@@ -110,7 +110,7 @@ gem "kgio"
 gem "secure_headers"
 
 # Load canonical-rails to generate canonical URLs
-gem "canonical-rails"
+gem "canonical-rails", ">= 0.2.15"
 
 # Used to generate logstash friendly log files
 gem "logstasher"
